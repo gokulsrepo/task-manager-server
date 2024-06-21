@@ -18,7 +18,7 @@ Create a MongoDB Atlas account:
 
 - Create a account here: https://www.mongodb.com/cloud/atlas/register
 - This video will be useful: https://www.youtube.com/watch?v=NcN9S0DR1nU
-- After creating, you will get a URI similiar to this mongodb+srv://domain:27017/username:password@app.domain.mongodb.net/
+- After creating, you will get a URI similiar to this "mongodb+srv://domain:27017/username:password@app.domain.mongodb.net/"
 
 Clone the repository:
 ```
