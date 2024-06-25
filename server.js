@@ -21,7 +21,7 @@ app.use("/api/v1/task", taskRouter);
 app.use(errorMiddleware);
 
 // Connect to MongoDB
-const URI = process.env.MONGODB_URL
+const URI = process.env.MONGO_URI
 mongoose
     .connect(URI, {
       dbName: "task_manager",
