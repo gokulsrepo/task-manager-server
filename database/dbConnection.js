@@ -5,7 +5,9 @@ dotenv.config();
 
 export const DBConnect = () => {
   mongoose
-    .connect(process.env.MONGO_URI)
+    .connect(process.env.MONGO_URI, {
+      dbName: "task_manager",
+    })
     .then(() => {
       console.log("Connected to database!");
     })
